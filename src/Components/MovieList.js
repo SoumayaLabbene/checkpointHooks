@@ -4,11 +4,7 @@ const MovieList = ({movies}) => {
     return (
     
       <Container>
-      {/* <Row>
-      <Col sm={8}>
-      {movies.map((item)=><MovieCard movie={item}/>)}
-     </Col>
-     </Row> */}
+      
      <Row>
      {
             movies.map((item) => {
